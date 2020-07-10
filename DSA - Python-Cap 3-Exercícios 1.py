@@ -3,15 +3,14 @@
 #"Hoje é dia de descanso", caso contrário imprima na tela "Você precisa trabalhar!"
 
 
-dia = str(input("Digite o dia da semana?"))
+dia = str(input("Digite o dia da semana?")).upper()
 
-if dia == "Domingo" or dia == "Sabado": 
-    print("Hoje e dia de descanso")
+if dia == "DOMINGO" or dia == "SABADO": 
+    print("Hoje e dia de descanso!")
     
 else:
     print("Voce precisa trabalhar!")
     
     
-    #####ERRO####
     
     
