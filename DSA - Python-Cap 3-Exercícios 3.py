@@ -1,12 +1,15 @@
 # Exercício 3 - Crie uma tupla de 4 elementos, multiplique cada elemento
 #da tupla por 2 e guarde os resultados em uma lista.
 
-tupla = (2, 3, 4, 5)
+elemento = 0
 
+for t in range(0,4):
+    tupla = int(input('Digite 4 numeros:'))
+    elemento += tupla * 2
+    
 lista = []
 
-for i in tupla:
-    resultado = i * 2
-    lista.append(resultado)
+lista.append(elemento)
+
 print(lista)
     
