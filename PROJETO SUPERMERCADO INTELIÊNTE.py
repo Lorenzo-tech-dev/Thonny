@@ -6,13 +6,13 @@ lista = {
     'corrdor2':["picles", "chantili", "requeijao", "tomate"],
     'corrdor3':["molho de tomate", "iogurte", "carne", "banana"],
 }
- '''   
+   
 lista = ('corrdor1': ["geleia", "leite", "ovo", "alface"],
     ["picles", "chantili", "requeijao", "tomate"],
     ["molho de tomate", "iogurte", "carne", "banana"]
 )
 a = lista[0]
-'''
+
 def search (lista, valor):
     return [
        (lista.index(x), x.index(valor))
