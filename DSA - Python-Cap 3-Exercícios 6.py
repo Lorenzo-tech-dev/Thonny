@@ -2,12 +2,13 @@
 mas quando for encontrado o valor 23, interrompa a execução do programa'''
 
 contador = 0
+
 while contador < 100:
-    if contador == 23:
+    if contador == 24:
         break
-    else:
-        pass
-    print(contador)
-    contador =+  1
     
-    #### ERRO########
+    print(contador)
+    
+    contador +=  1
+    
+
